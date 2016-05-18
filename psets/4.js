@@ -11,3 +11,6 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+var celtemp = 55;
+var farconvert = ((celtemp - 32) *5)/9;
+console.log (celtemp + "*C" + farconvert + "^F");
