@@ -11,6 +11,9 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
-var celtemp = 55;
-var farconvert = ((celtemp - 32) *5)/9;
-console.log (celtemp + "*C" + farconvert + "^F");
+var fahrenheit = 55;
+var convc = ((fahrenheit-32) *5) / 9;
+var celcius = 86;
+var convf = ((celcius * 9)/5) + 32;
+console.log (convc + " *C is " + fahrenheit + " F");
+console.log(convf + " F is " + celcius + " C")
