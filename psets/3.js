@@ -10,3 +10,9 @@ http://math2.org/math/geometry/circles.htm
 */
 
 // write your solution here...
+
+var radius = 20;
+var nn = (2*3.14) * radius ;
+var area = 3.14 * (radius * radius);
+console.log("The circumference is " + nn );
+console.log("The are is " + area);
