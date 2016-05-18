@@ -12,3 +12,11 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+var curage = 30,
+   maxage = 65,
+    perdiem = 5;
+
+ndays = (maxage - curage) * 365;
+nn = ndays * perdiem;
+
+console.log("You will need " + nn + " to last you until the ripe old age of " + maxage + ".");
