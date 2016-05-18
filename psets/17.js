@@ -10,3 +10,12 @@ Call that function for a few different scores and log the result to make sure it
 */
 
 // write your solution here...
+
+function pluralize (noun, number){
+
+var s = "s";
+var results =(number + "" + noun + s)
+return results
+}
+
+console.log(pluralize("cat", 5));
