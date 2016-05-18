@@ -10,3 +10,16 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+//declare global variable of current year
+var cy = 2016
+var by = 1986
+var nn = cy-by;
+
+var age = function (year) {
+   var nn = year-by;
+   console.log("They are either " + nn + " or ");
+
+ }
+  age(2015);
+
+  console.log(nn);
