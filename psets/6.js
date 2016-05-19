@@ -13,5 +13,15 @@ Look up the JavaScript string reference to find methods which may be useful!
 */
 
 function mixUp(a, b) {
-  // write your solution here...
+
+var slice1 = a.slice(0,2);
+var slice2 = b.slice(0,2);
+//var replace = slice1.replaceAt(2,b);
+//var replace1 = slice2.replaceAt(2,a);
+var swap1 = a.replace(b);
+var swap2 = b.replace(a);
+var results = (  slice2 +swap1[2]  + " , " + slice1 + swap2[2]);
+return results;
+
 }
+console.log(mixUp("cat", "dog"));
