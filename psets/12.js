@@ -12,3 +12,18 @@ Write a function named calculateSupply that:
 */
 
 // write your solution here...
+function calculateSupply(age, amount per day) {
+
+var years = 30;
+
+var calc1 = (age * years)/365 ;
+var nn = (calc1)(amount per day);
+var x = age + years
+
+var calcsupply = ("You will need " + nn + " to last you until the ripe old age of " + x);
+return calcsupply
+
+
+}
+
+console.log(calculateSupply(50,10));
