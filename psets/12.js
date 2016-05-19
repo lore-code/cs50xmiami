@@ -16,7 +16,7 @@ function calculateSupply(age, amtperday) {
 
 var years = 30;
 
-var calc1 = (age * years)/365 ;
+var calc1 = years*365 ;
 var nn = (calc1)*(amtperday);
 var x = age + years
 
@@ -27,3 +27,5 @@ return calcsupply
 }
 
 console.log(calculateSupply(50,10));
+console.log(calculateSupply(30,200));
+console.log(calculateSupply(22,5));
