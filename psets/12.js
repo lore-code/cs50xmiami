@@ -17,7 +17,7 @@ function calculateSupply(age, amtperday) {
 var years = 30;
 
 var calc1 = (age * years)/365 ;
-var nn = (calc1)(amtperday);
+var nn = (calc1)*(amtperday);
 var x = age + years
 
 var calcsupply = ("You will need " + nn + " to last you until the ripe old age of " + x);
