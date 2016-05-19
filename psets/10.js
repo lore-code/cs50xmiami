@@ -10,23 +10,13 @@ Write a function named tellFortune that:
 */
 
 // write your solution here...
+//Can't figure out how to loop through different arrays...I tried fortune(i + 1)[2]...
 
-function tellFortune(children, partner, geo, job) {
-
-var fortune1 = [4, "Steve", "Miami", "Sales"];
-var fortune2 = [2, "Jacob", "Texas", "IT"];
-var fortune3 = [0. "Mario", "Star World", "Princess"];
-
-for (var i =0; i<3; i++) {
-
-  return("You will be a " + fortune(i+1)[3] + " in " + fortune(i+1)[2] + ", and married to " + fortune(i+1)[1] + " with " +fortune(i+1)[0] + "kids");
-
-}
-
-console.log(tellFortune());
+  var fortune1 = ["4", "Steve", "Miami", "Sales"];
+  var fortune2 = ["2", "Jacob", "Texas", "IT"];
+  var fortune3 = ["0", "Mario", "Star World", "Princess"];
 
 
-
-
-
-}
+console.log ("You will be a " + fortune1[3] + " in " + fortune1[2] + " , and married to " + fortune1[1] + " with " + fortune1[0] + " kids" );
+console.log ("You will be a " + fortune2[3] + " in " + fortune2[2] + " , and married to " + fortune2[1] + " with " + fortune2[0] + " kids" );
+console.log ("You will be a " + fortune3[3] + " in " + fortune3[2] + " , and married to " + fortune3[1] + " with " + fortune3[0] + " kids" );
