@@ -10,3 +10,23 @@ Write a function named tellFortune that:
 */
 
 // write your solution here...
+
+function tellFortune(children, partner, geo, job) {
+
+var fortune1 = [4, "Steve", "Miami", "Sales"];
+var fortune2 = [2, "Jacob", "Texas", "IT"];
+var fortune3 = [0. "Mario", "Star World", "Princess"];
+
+for (var i =0; i<3; i++) {
+
+  return("You will be a " + fortune(i+1)[3] + " in " + fortune(i+1)[2] + ", and married to " + fortune(i+1)[1] + " with " +fortune(i+1)[0] + "kids");
+
+}
+
+console.log(tellFortune());
+
+
+
+
+
+}
